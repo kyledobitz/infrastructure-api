@@ -1,0 +1,8 @@
+import com.kyledobitz.infrastructure.api.App
+
+model {
+	Iterable<App> appList
+}
+
+json tmpl.app(appList ?: [])
+

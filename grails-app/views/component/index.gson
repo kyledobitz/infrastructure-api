@@ -1,0 +1,8 @@
+import com.kyledobitz.infrastructure.api.Component
+
+model {
+	Iterable<Component> componentList
+}
+
+json tmpl.component(componentList ?: [])
+
